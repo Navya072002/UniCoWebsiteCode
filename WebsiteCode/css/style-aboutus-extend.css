@@ -1,0 +1,58 @@
+
+.about_section {
+    background-color: #FF9900;
+  }
+  
+  .about_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .about_section .detail-box h2 {
+    padding-top: 20px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .about_section .detail-box p {
+    margin-top: 10px;
+    font-size: 18px;
+  
+  }
+  
+  .about_section .detail-box a {
+    margin-top: 45px;
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    background-color: #E4049E;
+    border: 1px solid #E4049E;
+    border-radius: 2px;
+    color: #ffffff;
+  }
+  
+  .about_section .detail-box a:hover {
+    /* padding-top: 30px; */
+    background-color: transparent;
+    color: #E4049E;
+  }
+  
+  .about_section .img-box img {
+    
+    padding: 80px;
+    width: 100%;
+  }
+  
+  /* top right bottom left */
+  
+  .about_section #myVideo{
+    padding: 120px 0 0 100px;
+    width: 100%;
+    /* border-radius: 20px;
+    overflow: hidden;
+    -webkit-transform: translateZ(0);  this doesnt work on my current browser version */
+  }
